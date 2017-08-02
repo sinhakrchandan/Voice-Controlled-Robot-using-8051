@@ -4,9 +4,9 @@
 #include<intrins.h>
 #define lcd P0
 
-sbit rs=P1^6; 
-sbit rw=P1^7;
-sbit en=P1^8;
+sbit rs=P1^5; 
+sbit rw=P1^6;
+sbit en=P1^7;
 sbit lcd_bsy = P0^7;
 
 sbit mtr1 = P2^0;
